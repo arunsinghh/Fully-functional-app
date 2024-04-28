@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainIOS">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="iOS development involves creating applications for Apple's mobile devices, such as iPhones and iPads, using Swift or Objective-C programming languages. Developers utilize the iOS Software Development Kit (SDK) and Xcode, Apple's integrated development environment (IDE). Key elements include UIKit for building user interfaces, Core Data for data management, and Swift or Objective-C for coding logic. iOS apps go through the App Store review process before being available to users. Developers focus on creating responsive, user-friendly interfaces and leveraging Apple's design principles. Regular updates and compatibility with the latest iOS versions are crucial for app success in the Apple ecosystem."
+            />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainAndroid">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Android development involves creating applications for the Android operating system, which powers a majority of smartphones globally. Developers use languages like Java and Kotlin along with the Android Studio IDE to build diverse apps, ranging from social media platforms to productivity tools. The Android ecosystem provides robust APIs, allowing seamless integration of features like location services, notifications, and in-app purchases. With a focus on user-friendly interfaces and compatibility across a wide range of devices, Android development offers a dynamic and constantly evolving landscape for developers to create innovative and engaging mobile experiences."
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

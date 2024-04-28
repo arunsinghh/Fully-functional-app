@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMachineLearning">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Machine learning is a subset of artificial intelligence that empowers systems to learn patterns from data and make decisions without explicit programming. Algorithms are trained on datasets, enabling computers to recognize patterns and improve performance over time. Supervised learning involves labeled data, unsupervised learning identifies patterns without labels, and reinforcement learning uses a reward-based system. Machine learning finds applications in various fields, including image and speech recognition, natural language processing, recommendation systems, and predictive analytics. Continuous advancements in algorithms, data availability, and computing power contribute to the rapid evolution and integration of machine learning technologies across industries."
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

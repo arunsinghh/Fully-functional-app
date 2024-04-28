@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainAi">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Artificial Intelligence (AI) is a branch of computer science that simulates human intelligence in machines. Through algorithms and data, AI systems learn, adapt, and perform tasks typically requiring human intelligence. Machine learning, a subset of AI, enables systems to improve performance over time. AI applications include natural language processing, image and speech recognition, and autonomous decision-making. Deep learning, inspired by the human brain's neural networks, enhances AI capabilities. Widely employed in industries like healthcare, finance, and robotics, AI continues to evolve, impacting daily life through innovations like virtual assistants and predictive analytics while raising ethical considerations surrounding privacy and bias."
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

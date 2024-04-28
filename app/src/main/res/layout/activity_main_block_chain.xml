@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainBlockChain">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Blockchain is a decentralized and distributed ledger technology that securely records and verifies transactions across a network of computers. Each block in the chain contains a cryptographic hash of the previous block, ensuring integrity and immutability. Utilized in cryptocurrencies like Bitcoin, blockchain's transparent and tamper-resistant nature extends to diverse industries. It enhances transparency, reduces fraud, and enables smart contracts, self-executing agreements with coded terms. Blockchain's potential spans finance, healthcare, supply chain, and more, revolutionizing data management. However, challenges such as scalability and regulatory frameworks continue to shape its evolution as a transformative and disruptive technology."
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

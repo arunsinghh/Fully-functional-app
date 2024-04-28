@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainWeb">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Web development is the process of constructing and maintaining websites. Front-end technologies, including HTML for structure, CSS for styling, and JavaScript for interactivity, shape the user experience. Back-end components, such as server-side scripting (e.g., PHP, Python) and databases (e.g., MySQL, MongoDB), manage data processing and storage. Frameworks like React.js and Express.js enhance efficiency by providing pre-built structures. Git enables version control, tracking changes throughout development. Responsive design ensures optimal functionality across diverse devices. Web APIs facilitate seamless communication between different applications. Security measures, addressing vulnerabilities like cross-site scripting and SQL injection, are integral. Testing tools such as Jest and Selenium identify and rectify bugs, ensuring robust functionality. Deployment to hosting services like AWS or Heroku, coupled with Continuous Integration/Continuous Deployment (CI/CD) practices, streamlines the release process. In this dynamic field, staying abreast of evolving technologies and best practices is imperative for effective web development."
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
